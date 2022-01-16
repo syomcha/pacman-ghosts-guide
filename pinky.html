@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./icons/pinky.png" type="image/png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+  <link rel="stylesheet" href="./styles/media.css">
+  <title>Призраки | Пинки</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="./index.html" class="nav-item nav-link">Главная</a>
+        </li>
+        <li class="nav-list-group-item">
+          <div class="nav-item">Призраки</div>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./blinky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/blinky.png" alt="">
+                <span>Блинки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./pinky.html" class="nav-item nav-link active">
+                <img class="nav-item-icon" src="./icons/pinky.png" alt="">
+                <span>Пинки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./inky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/inky.png" alt="">
+                <span>Инки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./clyde.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/clyde.png" alt="">
+                <span>Клайд</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input class="input" type="search" placeholder="Поиск по сайту...">
+      <button class="btn btn-search" type="button">Найти</button>
+    </div>
+  </header>
+
+  <main class="page-wrapper">
+    <section class="page-section clearfix">
+      <h1 class="page-section-title">Пинки</h1>
+      <div class="info-cards">
+        <div class="card ghost-info-card">
+          <div class="card-body">
+            <p>
+              <b>Пинки</b> - один из четырех главных призраков в серии Pac-Man. Она является единственным женским
+              привидением и любит быть красивой. Она пытается устроить засаду Пакману, двигаясь параллельно ему.
+            </p>
+            <br>
+            <h3 id="behavior" class="info-title">Поведение</h3>
+            <p>
+              В качестве цели при преследовании использует точку, находящуюся на четыре клетки впереди Пакмана. Однако
+              из-за ошибки переполнения при движении Пакмана вверх Пинки использует в качестве цели квадрат, находящийся
+              на четыре клетки вверх и на четыре влево от Пакмана.
+            </p>
+          </div>
+        </div>
+        <div class="card ghost-info-table-card">
+          <div class="card-body">
+            <table class="ghost-info-table">
+              <tbody>
+                <tr>
+                  <td colspan="2">
+                    <div class="info-table-title pinky">Пинки</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <div class="card info-table-image-card">
+                      <div class="card-body">
+                        <img src="./images/pinky.png" alt="Пинки">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Имя</td>
+                  <td class="info-table-text">
+                    <p>Спиди</p>
+                    <p>(англ. Speedy)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Прозвище</td>
+                  <td class="info-table-text">
+                    <p>Пинки</p>
+                    <p>(англ. Pinky)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Японское имя</td>
+                  <td class="info-table-text">
+                    <p>Матибусэ</p>
+                    <p>(яп. 待ち伏せ, сидящий в засаде)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Японское прозвище</td>
+                  <td class="info-table-text">
+                    <p>Пинки</p>
+                    <p>(яп. ピンキー, розовый)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Пол</td>
+                  <td class="info-table-text">Женский</td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Вид</td>
+                  <td class="info-table-text">Призрак</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>Щелков Семен | Шпора Фронт 2022</div>
+  </footer>
+</body>
+
+</html>

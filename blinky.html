@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./icons/blinky.png" type="image/png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+  <link rel="stylesheet" href="./styles/media.css">
+  <title>Призраки | Блинки</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="./index.html" class="nav-item nav-link">Главная</a>
+        </li>
+        <li class="nav-list-group-item">
+          <div class="nav-item">Призраки</div>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./blinky.html" class="nav-item nav-link active">
+                <img class="nav-item-icon" src="./icons/blinky.png" alt="">
+                <span>Блинки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./pinky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/pinky.png" alt="">
+                <span>Пинки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./inky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/inky.png" alt="">
+                <span>Инки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./clyde.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/clyde.png" alt="">
+                <span>Клайд</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input class="input" type="search" placeholder="Поиск по сайту...">
+      <button class="btn btn-search" type="button">Найти</button>
+    </div>
+  </header>
+
+
+  <main class="page-wrapper">
+    <section class="page-section clearfix">
+      <h1 class="page-section-title">Блинки</h1>
+
+      <div class="info-cards">
+        <div class="card ghost-info-card">
+          <div class="card-body">
+            <p>
+              <b>Блинки</b> - это лидер призраков и заклятый враг Пакмана. Является самым агрессивным призраком,
+              постоянно преследует Пакмана. От Блинки трудно убежать, если он начинает гнаться за вами.
+            </p>
+            <br>
+
+            <h3 id="behavior" class="info-title">Поведение</h3>
+            <p>
+              В режиме преследования Блинки использует как цель ту клетку, в которой находится Пакман. Он, в отличие от
+              других привидений, увеличивает свою скорость преследования относительно первоначальной дважды за уровень в
+              зависимости от количества съеденных точек. Если точек осталось мало, то он меняет целевую клетку в режиме
+              рассеивания на квадрат, в котором находится Пакман, и так гоняется за героем в двух режимах. Подобное
+              «агрессивное» поведение призрака игроки прозвали «круизом Элроя» (англ. <i>Cruise Elroy</i>).
+            </p>
+          </div>
+        </div>
+
+        <div class="card ghost-info-table-card">
+          <div class="card-body">
+            <table class="ghost-info-table">
+              <tbody>
+                <tr>
+                  <td colspan="2">
+                    <div class="info-table-title blinky">Блинки</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <div class="card info-table-image-card">
+                      <div class="card-body">
+                        <img src="./images/blinky.png" alt="Блинки">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Имя</td>
+                  <td class="info-table-text">
+                    <p>Шэдоу</p>
+                    <p>(англ. Shadow)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Прозвище</td>
+                  <td class="info-table-text">
+                    <p>Блинки</p>
+                    <p>(англ. Blinky)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Японское имя</td>
+                  <td class="info-table-text">
+                    <p>Оикакэ</p>
+                    <p>(яп. 追いかけ, преследователь)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Японское прозвище</td>
+                  <td class="info-table-text">
+                    <p>Акабэй</p>
+                    <p>(яп. 赤ベイ, красный)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Пол</td>
+                  <td class="info-table-text">Мужской</td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Вид</td>
+                  <td class="info-table-text">Призрак</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>Щелков Семен | Шпора Фронт 2022</div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+@media screen and (max-width: 768px) {
+  .header {
+    top: -50px;
+    flex-direction: column-reverse;
+  }
+
+  .search-container .input {
+    width: 100%;
+  }
+
+  .page-section .page-section-title {
+    margin-bottom: 20px;
+  }
+
+  .info-cards {
+    flex-direction: column-reverse;
+  }
+
+  .info-cards .ghost-info-card {
+    width: 100%;
+  }
+
+  .info-cards .ghost-info-table-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ghost-card-list-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page-wrapper {
+    padding: 10px 10px 60px 10px;
+  }
+
+  .monster-card .card-body {
+    height: 160px;
+    align-items: flex-end;
+  }
+
+  .monster-card:hover .card-body .monster-image {
+    animation: ghost-moving 0.25s linear infinite;
+  }
+
+  .monster-card .monster-image {
+    top: 20px;
+    left: calc(50% - 42px);
+    animation: ghost-moving 2s linear infinite;
+  }
+
+  .blinky-monster-card .monster-image {
+    animation-delay: 0.25s;
+    animation-duration: 1s;
+  }
+
+  .pinky-monster-card .monster-image {
+    animation-delay: 0s;
+    animation-duration: 1s;
+  }
+
+  .inky-monster-card .monster-image {
+    animation-delay: 0.75s;
+    animation-duration: 1.5s;
+  }
+
+  .clyde-monster-card .monster-image {
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+  }
+
+  .monster-card:hover .card-body .monster-image {
+    left: calc(50% - 42px);
+  }
+
+  .monster-card .monster-name {
+    position: static;
+    display: block;
+    width: 100%;
+    opacity: 1;
+    text-align: center;
+    transition: none;
+  }
+
+  .page-section .page-section-title {
+    margin-bottom: 10px;
+  }
+
+  .ghosts-image-card {
+    float: none;
+    margin-left: 0;
+  }
+
+  .info-cards .ghost-info-table-card {
+    min-width: 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ghosts-image-card {
+    width: 100%;
+  }
+
+  .ghosts-image-card img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}

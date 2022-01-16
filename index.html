@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./icons/scary-ghost.png" type="image/png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+  <link rel="stylesheet" href="./styles/media.css">
+  <title>Главная</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="./index.html" class="nav-item nav-link active">Главная</a>
+        </li>
+        <li class="nav-list-group-item">
+          <div class="nav-item">Призраки</div>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./blinky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/blinky.png" alt="">
+                <span>Блинки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./pinky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/pinky.png" alt="">
+                <span>Пинки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./inky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/inky.png" alt="">
+                <span>Инки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./clyde.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/clyde.png" alt="">
+                <span>Клайд</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input class="input" type="search" placeholder="Поиск по сайту...">
+      <button class="btn btn-search" type="button">Найти</button>
+    </div>
+  </header>
+
+  <main class="page-wrapper">
+    <section class="page-section">
+      <h1 class="page-section-title">Справочник призраков Pac-Man</h1>
+      <div class="card">
+        <div class="card-body clearfix">
+          <div class="card ghosts-image-card">
+            <div class="card-body">
+              <img src="./images/ghosts.png" alt="Призраки Pac-Man">
+            </div>
+          </div>
+
+          <p>
+            <b>Призраки</b> (англ. <i>ghosts</i>) — управляемые компьютером враги в аркадной игре Pac-Man. Они
+            преследуют Пакмана в лабиринте и не дают ему съесть все точки. Цель игроков - избежать всех призраков
+            и собрать все точки.
+          </p>
+          <br>
+          <p>Призраки имеют три разные запрограммированные модели поведения:</p>
+          <ul class="list">
+            <li class="list-item">преследование (англ. <i>chase</i>)</li>
+            <li class="list-item">рассеивание (англ. <i>scatter</i>)</li>
+            <li class="list-item">испуг (англ. <i>frightened</i>)</li>
+          </ul>
+          <br>
+          <p>
+            Для движения призраков в первых двух режимах игра использует разделение игрового экрана на квадраты. В
+            аркадной версии один такой квадрат имеет размер 8×8 пикселей при разрешении экрана 224×288.
+            При рассеивании привидения стремятся к квадратам, которые находятся за пределами лабиринта ближе к его
+            углам. В режимах рассеивания и преследования у призраков есть определённый квадрат, который они пытаются
+            достичь. В режиме испуга призраки не имеют целевой точки и выбирают поворот в лабиринте при помощи
+            генератора псевдослучайных чисел.
+          </p>
+          <br>
+          <p>
+            Единственной слабостью призраков является энерджайзер, который делает их уязвимыми на несколько секунд,
+            после чего Пакман может их съесть.
+          </p>
+          <br>
+          <ul class="list">
+            <li class="list-item">Съедение одного призрака даёт 200 очков</li>
+            <li class="list-item">Съедение двух призраков даёт 400 очков</li>
+            <li class="list-item">Съедение трёх призраков даёт 800 очков</li>
+            <li class="list-item">Съедение четырёх призраков даёт 1600 очков</li>
+          </ul>
+          <br>
+          <p>
+            Расчёт целевой точки
+            при преследовании исключителен для каждого призрака, что придаёт им уникальное поведение.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <h1 class="page-section-title">Выберите призрака</h1>
+      <ul class="ghost-card-list">
+        <li class="ghost-card-list-item">
+          <a href="./blinky.html" class="hidden-link">
+            <div class="card monster-card blinky-monster-card">
+              <div class="card-body">
+                <img class="monster-image" src="./images/blinky.png" alt="Блинки">
+                <span class="monster-name blinky">Блинки</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ghost-card-list-item">
+          <a href="./pinky.html" class="hidden-link">
+            <div class="card monster-card pinky-monster-card">
+              <div class="card-body">
+                <img class="monster-image" src="./images/pinky.png" alt="Пинки">
+                <span class="monster-name pinky">Пинки</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ghost-card-list-item">
+          <a href="./clyde.html" class="hidden-link">
+            <div class="card monster-card clyde-monster-card">
+              <div class="card-body">
+                <img class="monster-image" src="./images/clyde.png" alt="Клайд">
+                <span class="monster-name clyde">Клайд</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ghost-card-list-item">
+          <a href="./inky.html" class="hidden-link">
+            <div class="card monster-card">
+              <div class="card-body">
+                <img class="monster-image" src="./images/inky.png" alt="Инки">
+                <span class="monster-name inky">Инки</span>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>Щелков Семен | Шпора Фронт 2022</div>
+  </footer>
+</body>
+
+</html>

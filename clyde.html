@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./icons/clyde.png" type="image/png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+  <link rel="stylesheet" href="./styles/media.css">
+  <title>Призраки | Клайд</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="./index.html" class="nav-item nav-link">Главная</a>
+        </li>
+        <li class="nav-list-group-item">
+          <div class="nav-item">Призраки</div>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./blinky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/blinky.png" alt="">
+                <span>Блинки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./pinky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/pinky.png" alt="">
+                <span>Пинки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./inky.html" class="nav-item nav-link">
+                <img class="nav-item-icon" src="./icons/inky.png" alt="">
+                <span>Инки</span>
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./clyde.html" class="nav-item nav-link active">
+                <img class="nav-item-icon" src="./icons/clyde.png" alt="">
+                <span>Клайд</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input class="input" type="search" placeholder="Поиск по сайту...">
+      <button class="btn btn-search" type="button">Найти</button>
+    </div>
+  </header>
+
+  <main class="page-wrapper">
+    <section class="page-section clearfix">
+      <h1 class="page-section-title">Клайд</h1>
+      <div class="info-cards">
+        <div class="card ghost-info-card">
+          <div class="card-body">
+            <p>
+              <b>Клайд</b> является одним из четырех главных призраков в серии Pac-Man. Пока остальные три призрака
+              гоняются за Пакманом, Клайд будет заниматься своими делами. Его обычно изображают как наименее умного и
+              самого смиренного призрака.
+            </p>
+            <br>
+            <h3 id="behavior" class="info-title">Поведение</h3>
+            <p>
+              Если Клайд находится дальше 8 клеток от Пакмана, то он использует в качестве цели самого Пакмана, как
+              <a href="./blinky.html#behavior" title="Поведение Блинки">Блинки</a>. Если же Пакман ближе 8 клеток, то
+              Клайд стремится к левому нижнему углу, как при рассеивании.
+            </p>
+          </div>
+        </div>
+        <div class="card ghost-info-table-card">
+          <div class="card-body">
+            <table class="ghost-info-table">
+              <tbody>
+                <tr>
+                  <td colspan="2">
+                    <div class="info-table-title clyde">Клайд</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <div class="card info-table-image-card">
+                      <div class="card-body">
+                        <img src="./images/clyde.png" alt="Клайд">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Имя</td>
+                  <td class="info-table-text">
+                    <p>Поки</p>
+                    <p>(англ. Pockey)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Прозвище</td>
+                  <td class="info-table-text">
+                    <p>Клайд</p>
+                    <p>(англ. Сlyde)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Японское имя</td>
+                  <td class="info-table-text">
+                    <p>Отобокэ</p>
+                    <p>(яп. お惚け, глупый)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Японское прозвище</td>
+                  <td class="info-table-text">
+                    <p>Гудзута</p>
+                    <p>(яп. 愚図た, медленный)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Пол</td>
+                  <td class="info-table-text">Мужской</td>
+                </tr>
+                <tr>
+                  <td class="info-table-label">Вид</td>
+                  <td class="info-table-text">Призрак</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>Щелков Семен | Шпора Фронт 2022</div>
+  </footer>
+</body>
+
+</html>
